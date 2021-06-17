@@ -4,10 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
     <title>Cedric's Portfolio</title>
+    <!-- hr style -->
+    <style>
+        hr {
+            width: 100%;
+            height: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: black;
+        }
+    </style>
+        <!-- font awesome kit code -->
+        <script src="https://kit.fontawesome.com/cf0a535f4d.js" crossorigin="anonymous"></script>
+        <link href="CSS/style.css" type="text/css" rel="stylesheet">
 </head>
-<body style="background-color:pink;">
+<!-- start of body -->
+<!-- background color -->
+<body>
+    <!-- nav bar -->
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+    <!-- testing -->
+    <div class="testcss">
+        <p>Hello my name is bob test</p>
+    </div>
+    <p id="testid">Test ID attribute</p>
+    <hr>
     <p><center><strong>Hello World,</stong> <em>This is Cedric</em></center></p>
+    <h2 style="color:red; font-size: 48;">BOB</h2>
     <hr>
     <img src="https://media.tenor.com/images/acc4116372dcc4b342cb1a00ae657151/tenor.gif" alt="Hello GIFs | Tenor" jsname="HiaYvf" jsaction="load:XAeZkd;" class="n3VNCb" data-noaft="1" style="width: 220px; height: 220px; margin: 22.15px 0px;">
     <br>
@@ -18,8 +48,11 @@
     <a href="https:www.youtube.com"
     target="_blank"> Youtube</a>
     <br>
+    <a href="https://lic832.wixsite.com/website"
+    target="_blank"> Cedric's art portfolio</a>
     <br>
-    <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg" alt="Yasuo, the Unforgiven - League of Legends"
+    <br>
+    <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg" alt="Yasuo, the Unforgiven - League of Legends" class="center"
     width="1000" 
     height="700"/>
     <!-- This is how to do a comment -->
@@ -31,5 +64,63 @@
     <ul>
         <li>How to do bullet points</ul>   
     </ul>
+    <!-- social media bar at the bottom -->
+    <div class ="htmlbody">
+        <div class = "wrapper">
+            <div class="icon Snapchat">
+                <div class ="tooltip">Snapchat</div>
+                <span><a href="https://www.snapchat.com/"><i class="fab fa-snapchat"></i></a></span>
+            </div>
+            <div class="icon Wechat">
+                <div class ="tooltip">Wechat</div>
+                <span><a href="https://www.wechat.com/"><i class="fab fa-weixin"></i></a></span>
+            </div>
+            <div class="icon Instagram">
+                <div class ="tooltip">Instagram</div>
+                <span><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></i></span>
+            </div>
+            <div class="icon Github">
+                <div class ="tooltip">Github</div>
+                <span><a href="https://github.com/"><i class="fab fa-github"></i></a></i></span>
+            </div>
+            <div class="icon Youtube">
+                <div class ="tooltip">Youtube</div>
+                <span><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></i></span>
+            </div>
+        </div>
+    </div>
+    <!-- contact bar at the bottom  -->
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+    <!-- <div class="glow">
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=FL4zrBxA8jA"><i class="fab fa-facebook-f"></i></a></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-linkedin-in"></i></li>
+            <li><i class="fab fa-youtube"></i></li>
+        </ul>
+    </div> -->
 </body>
 </html>
